@@ -1,0 +1,47 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package personas;
+
+/**
+ *
+ * @author icanales
+ */
+public class Deportista extends Personas {
+
+ private int edad;
+    private int experiencia;
+    private String nombre;
+    
+  
+    //set y get de edad
+    public void setEdad(int edad){
+        this.edad = edad;
+    }
+    
+    public int getEdad(){
+        return edad;
+    }
+    
+    //set y get anios de experiencia
+    public void setExperiencia(int experiencia){
+        this.experiencia = experiencia;
+    }
+    
+    public int getExperiencia(){
+        return experiencia;
+    }
+    
+    //set y get string nombre
+    public void setNombre(String nombre){
+        this.nombre = nombre;
+    }
+    
+    public String getNombre(){
+        return nombre;
+    }
+
+
+}
